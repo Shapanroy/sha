@@ -1,0 +1,38 @@
+ *{
+     margin: 0;
+     padding: 0;
+ }
+
+.another{
+    background-image: url(img/shapan.jpg);
+    background-position: top center;
+    padding: 400px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+    background-attachment: fixed;
+}
+.good{
+    height: 1000px;
+}
+.another a{
+     font-size: 50px;
+     background-color: red;
+     display: inline;
+     color: #fff;
+     text-decoration: none;
+     padding: 20px 30px;
+     border: 2px solid tomato;
+     border-radius: 20px;
+     transform: .5s;
+}
+/* .another a{
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+} */
+
+.another a:hover{
+    background: green;
+}
